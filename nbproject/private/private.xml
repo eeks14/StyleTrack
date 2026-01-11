@@ -12,15 +12,12 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/view/ProductListUI.java</file>
             <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/view/ProductListUserUI.java</file>
             <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/model/ProductInventory.java</file>
-            <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/view/HomeUI.java</file>
-            <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/view/MainDashboard.java</file>
             <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/view/LoginUI.java</file>
             <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/controller/ProductController.java</file>
-            <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/view/UpdateProductUI.java</file>
-            <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/view/AddProductUI.java</file>
+            <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/view/MainDashboard.java</file>
+            <file>file:/Users/deekshyarai/Documents/Datasturctures%20CourseWork/GlowKeeper/src/model/Product.java</file>
         </group>
     </open-files>
 </project-private>

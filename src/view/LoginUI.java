@@ -29,11 +29,15 @@ public class LoginUI extends javax.swing.JFrame {
 
             int currentYear = java.time.Year.now().getValue();
 
-            inventory.addProduct(new Product("Face Serum", "BrandA", "Face Serum", currentYear + 1, 10, "All skin types"));
-            inventory.addProduct(new Product("Sunscreen SPF 50", "BrandB", "Sunscreen", currentYear + 2, 5, "Sensitive skin"));
-            inventory.addProduct(new Product("Lip Balm", "BrandC", "Lip Balm", currentYear + 3, 20, "Dry lips"));
-            inventory.addProduct(new Product("Moisturizer", "BrandD", "Moisturizer", currentYear + 1, 15, "Oily skin"));
-            inventory.addProduct(new Product("Cleanser", "BrandE", "Cleanser", currentYear + 1, 8, "Normal skin"));
+             try {
+                inventory.addProduct(new Product("Face Serum", "BrandA", "Face Serum", 2026, 10, "All skin types"));
+                inventory.addProduct(new Product("Sunscreen SPF 50", "BrandB", "Sunscreen", 2027, 5, "Sensitive skin"));
+                inventory.addProduct(new Product("Lip Balm", "BrandC", "Lip Balm", 2028, 20, "Dry lips"));
+                inventory.addProduct(new Product("Moisturizer", "BrandD", "Moisturizer", 2026, 15, "Oily skin"));
+                inventory.addProduct(new Product("Cleanser", "BrandE", "Cleanser", 2027, 8, "Normal skin"));
+            } catch (RuntimeException e) {
+               
+            }
         }
         private void login(){
             String username = txtUsername.getText().trim();
