@@ -44,6 +44,7 @@ public class MainDashboard extends javax.swing.JFrame {
 
     // Show Home panel initially
     cardLayout.show(cardPanel, "home");
+    this.setResizable(false);
 
     
     
@@ -417,7 +418,7 @@ public class MainDashboard extends javax.swing.JFrame {
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 379, Short.MAX_VALUE)
+            .addGap(0, 407, Short.MAX_VALUE)
             .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel12Layout.createSequentialGroup()
                     .addGap(26, 26, 26)
@@ -444,7 +445,7 @@ public class MainDashboard extends javax.swing.JFrame {
                     .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(txtSuitability1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addContainerGap(52, Short.MAX_VALUE)))
+                    .addContainerGap(65, Short.MAX_VALUE)))
         );
 
         jButton6.setBackground(new java.awt.Color(153, 204, 255));
@@ -526,32 +527,26 @@ public class MainDashboard extends javax.swing.JFrame {
             .addGroup(UpdateProductPanelLayout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(UpdateProductPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(UpdateProductPanelLayout.createSequentialGroup()
-                        .addGap(204, 204, 204)
-                        .addComponent(jButton6))
-                    .addGroup(UpdateProductPanelLayout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addGroup(UpdateProductPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(130, Short.MAX_VALUE))
+                        .addGap(186, 186, 186)
+                        .addComponent(jButton6))))
         );
         UpdateProductPanelLayout.setVerticalGroup(
             UpdateProductPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(UpdateProductPanelLayout.createSequentialGroup()
                 .addGap(35, 35, 35)
                 .addGroup(UpdateProductPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(UpdateProductPanelLayout.createSequentialGroup()
-                        .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 470, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 470, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(UpdateProductPanelLayout.createSequentialGroup()
                         .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(6, 6, 6)
                         .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton6)
-                        .addGap(28, 28, 28))))
+                        .addComponent(jButton6))))
         );
 
         cardPanel.add(UpdateProductPanel, "update");

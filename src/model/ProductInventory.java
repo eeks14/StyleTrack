@@ -16,12 +16,13 @@ public class ProductInventory {
         if (product.getProductName().trim().isEmpty()) {
             throw new RuntimeException("Product name cannot be empty");
         }
-
         for (Product p : products) {
             if (p.getProductName().equalsIgnoreCase(product.getProductName())) {
                 throw new RuntimeException("Product already exists");
             }
         }
+
+        
 
         int currentYear = Year.now().getValue();
         if (product.getExpiryYear() < currentYear ||
